@@ -48,7 +48,7 @@ namespace ProjectReservation.Entities
             {
                 throw new DomainException("Check-out date must be after check-in date");
             }
-
+             //update reservation
             CheckIn = checkIn;
             CheckOut = checkOut;
         }
